@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background-img{
+    background-image: url('wed-imgs/Background2.png');
+    background-size:cover;
+}
+body{
+    background-color: #1f2121;
+}
+.font{
+    font-size:28px;
+  
+    
+}
+.shadowss{
+    text-shadow: 5px 1px 2px #000;
+}
+.rate{
+   
+    font-weight:bold;
+    font-family:sans-serif;
+}
+.position-r{
+    position: relative;
+}
+.position1{
+   position: absolute;
+   top:20em !important;
+    bottom: 0px !important;
+     z-index: 1;
+}
+.position2{
+    position: absolute;
+    top:26em !important;
+     left:35em !important;
+}
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 990px) {
+
+    .position1{
+        position: absolute;
+        top:28em !important;
+        left:-1em;
+        z-index: 1;
+    }
+    .position2{
+        position: absolute;
+        top:33em !important;
+        left:30em !important;
+        z-index: 1;
+    }
+}   
+@media screen and (max-width: 769px) {
+    .position1{
+        position: absolute;
+        top:30em !important;
+        left:0em ;
+        z-index: 1;
+    }
+    .position2{
+        position: absolute;
+        top:33em !important;
+        left:25em !important;
+        z-index: 1;
+    }
+} 
+@media screen and (max-width: 576px) {
+
+    .position1{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top:40em !important;
+        left:0em ;
+        z-index: 1;
+    }
+    .position2{
+        position: absolute;
+        top:46em !important;
+        left:22em !important;
+        z-index: 1;
+    }
+} 
